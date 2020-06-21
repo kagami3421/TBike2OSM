@@ -10,7 +10,7 @@ namespace TBike2OSM
         /// <summary>
         /// 資料介接網址
         /// </summary>
-        public const string DATA_URL = "http://tbike.tainan.gov.tw:8081/Service/StationStatus/Xml";
+        public const string DATA_URL = "http://tbike-data.tainan.gov.tw/Service/StationStatus/Xml";
 
         /// <summary>
         /// 命令
@@ -60,7 +60,7 @@ namespace TBike2OSM
                 //2.差異系統
                 case "2":
                     {
-                        Console.WriteLine("Press file name without sub-file name:");
+                        Console.WriteLine("Press file name without extension:");
                         _compareFileName = Console.ReadLine();
 
                         //讀檔
